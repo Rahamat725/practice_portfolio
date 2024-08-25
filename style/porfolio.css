@@ -1,0 +1,54 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* common shared style */
+.primary-text {
+    color: rgb(253, 110, 10);
+}
+
+.primary-btn {
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+  
+
+}
+
+nav li {
+    margin-right: 50px;
+    list-style: none;
+
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hire-btn {
+    width: 150px;
+    height: 64px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+}
