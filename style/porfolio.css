@@ -10,6 +10,12 @@ body {
 .primary-btn {
     border-radius: 5px;
     background: rgb(253, 110, 10);
+
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
 }
 
 
@@ -17,6 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -45,10 +52,22 @@ nav li a {
     font-weight: 400;
 }
 
-.hire-btn {
-    width: 150px;
-    height: 64px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 700;
+
+
+/* header related style */
+header{
+    background: rgb(255, 248, 243);
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.profile-pic{
+    width: 500px;
+    /* height: 600px; */
+}
+.banner-content{
+    /* width: 50%; */
 }
